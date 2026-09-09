@@ -6,21 +6,21 @@
     <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
-      content="Chenchen Mao is a Computer Science Ph.D. candidate at Lehigh University researching human-centered AI, experimentation, and measurement validity."
+      content="Chenchen Mao studies how people form judgments about AI capabilities, anthropomorphism, and trust—and the limits of those judgments. Ph.D. candidate at Lehigh University."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://chenchenmao96.github.io/" />
     <meta property="og:title" content="Chenchen Mao — Human-Centered AI Researcher" />
     <meta
       property="og:description"
-      content="How AI capabilities, outputs, and context shape human perception, trust, and disclosure."
+      content="How people form judgments about AI from outputs and capability cues, and where those judgments reach their limits."
     />
     <meta property="og:image" content="https://chenchenmao96.github.io/assets/og-v3.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Chenchen Mao — Human-Centered AI Researcher" />
     <meta
       name="twitter:description"
-      content="How AI capabilities, outputs, and context shape human perception, trust, and disclosure."
+      content="How people form judgments about AI from outputs and capability cues, and where those judgments reach their limits."
     />
     <meta name="twitter:image" content="https://chenchenmao96.github.io/assets/og-v3.png" />
     <title>Chenchen Mao — Human-Centered AI Researcher</title>
@@ -45,7 +45,7 @@
           <div>
             <h1 id="name">Chenchen Mao</h1>
             <p class="role">Ph.D. Candidate in Computer Science · Lehigh University</p>
-            <p>I study how people perceive, trust, and disclose to general-purpose AI. My work brings together human-centered AI, experimentation, and measurement.</p>
+            <p>I study how people use AI outputs and interface capability cues to judge a system’s capabilities, humanlike qualities, and trustworthiness—and where those judgments reach their limits.</p>
             <p>I run controlled and in-situ field experiments, build the browser extensions and experimental platforms they require, and analyze the results with structural equation modeling. A central focus is measurement validity: establishing what an instrument measures before drawing conclusions from it.</p>
             <div class="profile-links">
               <a href="mailto:chm321@lehigh.edu">Email</a>
@@ -58,27 +58,31 @@
           <img class="portrait" src="assets/chenchen-mao.jpeg" alt="Chenchen Mao outdoors" width="160" height="200" />
         </section>
         <section id="research" aria-labelledby="research-title">
-          <h2 id="research-title">Selected research</h2>
+          <h2 id="research-title">Dissertation research</h2>
+          <p>Why do people move beyond evaluating what AI does to judging whether it is intelligent, humanlike, or trustworthy? My dissertation examines the relationships between these judgments and their boundaries. Study 1 provides an empirical starting point, Study 2 develops the research method, and Study 3 brings them together to test capability cues and refine the framework.</p>
+          <article>
+            <h3>When Readability and Source Retention Diverge</h3>
+            <p class="meta">Study 1 · Output evaluability and system appraisals · N = 306</p>
+            <p>In TransLingo, participants viewed source text and AI translation side by side. For simple texts, quality ratings tracked audited differences in source retention; for the tested complex prose, outputs with sharply different source overlap received nearly identical ratings. Seeing the source did not ensure that participants could evaluate what the translation retained.</p>
+            <p>Perceived quality, perceived intelligence, agency-oriented attribution, and task-performance trust were related. Trust was associated with stated disclosure willingness, but condition differences in trust did not correspond to reliable differences in disclosure willingness.</p>
+            <p class="meta">These results describe appraisal relationships, not an established causal sequence. Rendering conditions coincided with collection periods, and text complexity was confounded with genre and other source properties. Disclosure measures captured willingness rather than behavior.</p>
+            <a class="paper-link" href="https://arxiv.org/abs/2608.19083">Read the preprint ↗</a>
+          </article>
           <article>
             <h3>Outer Limits</h3>
-            <p class="meta">Research infrastructure · N = 219 · Accepted at CSSSA 2026</p>
-            <p>An open-source Chrome extension and Express/MongoDB backend for controlled experiments inside live Old Reddit. It replaces posts and comments, logs interactions, and contains participant actions so they never reach the host platform.</p>
-            <p>Instrument validation combined ART ANOVAs, exploratory equivalence tests at a d = ±0.50 bound, and qualitative coding with intercoder reliability above .80 to assess whether the manipulation introduced detectable artifacts.</p>
+            <p class="meta">Study 2 · Controlled experimentation within an existing platform · N = 219 · Accepted at CSSSA 2026</p>
+            <p>Moving from a standalone text tool to an AI assistant within a platform requires control over what participants encounter while retaining the platform interface. Outer Limits is an open-source Chrome extension and backend that replaces content inside Old Reddit, records interactions, and contains constructed content and configured write actions.</p>
+            <p>Validation combined ART ANOVAs, exploratory equivalence tests at a d = ±0.50 bound, and qualitative coding. It assessed perceptual fidelity within the tested materials and measures, rather than establishing natural behavior or broad ecological validity. This infrastructure supports the platform-embedded experiment in Study 3.</p>
             <a class="paper-link" href="https://arxiv.org/abs/2608.10115">Read the paper ↗</a>
           </article>
           <article>
             <h3>How Far Do Capability Cues Travel?</h3>
-            <p class="meta">Anthropomorphism and differentiated trust · N = 270</p>
-            <p>A randomized 2 × 2 field experiment on Reddit tested functional breadth and explanation. The breadth display changed perceived breadth—the only randomized main effect to survive correction—while explanation had no reliable effect despite 75% recognition.</p>
-            <p>Perceived intelligence was associated with ability, integrity, and benevolence trust; the incremental association of anthropomorphism was specific to benevolence. These findings motivate evaluating the specific judgments an interface is designed to change and measuring trust as separate dimensions.</p>
+            <p class="meta">Study 3 · Capability cues and differentiated trust · N = 270</p>
+            <p>A randomized 2 × 2 experiment through Outer Limits tested displays of functional breadth and explanation. Displaying multiple functions increased perceived multifunctionality—the only randomized main effect to survive correction for multiple testing. Broader effects on intelligence, anthropomorphism, and trust were not reliably supported in this study.</p>
+            <p>In the analysis of measured perceptions, perceived intelligence was associated with ability, integrity, and benevolence trust. After accounting for perceived intelligence, anthropomorphism’s additional association was specific to benevolence: whether the assistant was seen as caring about the user’s interests.</p>
+            <p class="meta">The findings distinguish recognizing a capability cue from changing a broader judgment. Associations among concurrently measured perceptions do not establish a causal process, and the experimental results do not rule out effects in other settings.</p>
           </article>
-          <article>
-            <h3>When Readability and Source Retention Diverge</h3>
-            <p class="meta">An evaluability gap in AI translation · N = 306</p>
-            <p>A 2 × 2 comparison in TransLingo examined source-text condition and output rendering, alongside an audit of readability and source retention. Participants saw both source and translation, but holistic quality ratings tracked retention differences only for simple texts.</p>
-            <p>For complex prose, outputs with sharply different source overlap received nearly identical ratings. The study identifies a condition in which human quality judgments may fail to register fidelity loss, and models how perceived quality relates to intelligence, anthropomorphism, trust, and disclosure willingness.</p>
-            <a class="paper-link" href="https://arxiv.org/abs/2608.19083">Read the preprint ↗</a>
-          </article>
+
         </section>
         <section id="publications" aria-labelledby="publications-title">
           <h2 id="publications-title">Publications</h2>
@@ -104,7 +108,7 @@
           <h2 id="background-title">Background</h2>
           <h3 class="subheading">Education</h3>
           <div class="record"><div><strong>Ph.D., Computer Science</strong><p>Lehigh University · Candidacy completed</p></div><span class="meta">Expected Dec 2026</span></div>
-          <p class="dissertation">Dissertation: From Tool to Social Actor — Capability Perception, Anthropomorphism, and Differentiated Trust in General-Purpose AI</p>
+          <p class="dissertation">Dissertation (working title): From Tool to Social Actor: Capability Perception, Anthropomorphism, and the Boundaries of Trust in AI</p>
           <div class="record"><div><strong>M.S., Computer Science</strong><p>Syracuse University</p></div><span class="meta">2021</span></div>
           <div class="record"><div><strong>B.S., Computer Science &amp; Mathematics</strong><p>University of Denver</p></div><span class="meta">2018</span></div>
           <h3 class="subheading">Experience</h3>

@@ -21,7 +21,7 @@ p { margin: .65rem 0; }
 section { padding: 2rem 0; border-top: 1px solid var(--line); }
 h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.65rem; line-height: 1.35; font-weight: 500; margin: 0 0 1.5rem; }
 h3 { font-size: 1.075rem; line-height: 1.5; font-weight: 600; margin: 0; }
-article + article { margin-top: 1.8rem; }
+article + article, #research > p + article { margin-top: 1.8rem; }
 .meta { color: var(--muted); font-size: .875rem; }
 article > .meta { margin-top: .2rem; }
 .paper-link { font-size: .9rem; }
